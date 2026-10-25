@@ -36,6 +36,9 @@ const CHAMADORES: Record<string, string> = {
   "lib/campanhas/acoes.ts": "ação disparada da tela: o erro sobe para quem clicou, sem estado gravado",
   "lib/mcp/tools/messages.ts": "ferramenta MCP: o erro sobe ao cliente; o token da org parada já é recusado antes",
   "lib/mcp/tools/start-conversation.ts": "ferramenta MCP: o erro sobe ao cliente; o token da org parada já é recusado antes",
+  // Fork elllo.
+  "lib/escalacao/sondagem-de-sentimento.ts":
+    "o handler do clima já pula a org parada; na corrida, o envio recusado limpa a chave, devolve o silêncio e segue para a passagem — nada gravado que sobreviva",
 };
 
 const PORTA = "app/api/v1/messages/_handler.ts";
